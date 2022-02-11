@@ -1,0 +1,67 @@
+.flexbox-container {
+    display: flex;
+    flex-direction: column;
+  align-items: center;
+}
+
+table, th, td {
+  border: 1px solid black;
+  color: white;
+}
+th{
+  padding: 10px;
+}
+table.center {
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+
+.flexbox-item {
+    width: 100%;
+    background-color: #dfdfdf;
+  margin: 0;
+  padding: 0;
+}
+.flexbox {
+    min-height: 50px;
+    background-color: black;
+  
+    
+}
+.grid-item{
+  display: grid;
+  grid-template-rows: 100px;
+  position: center;
+}
+.flexbox-item-1 {
+  background-size: 100% 500px;
+   background-image: url('pic1.png');
+   background-repeat: no-repeat;
+   min-height: 450px;
+   background-position: center;
+    
+}
+
+h1{
+    color:white;
+    font-size: 40px;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    padding-top:150px;
+
+}
+
+.flexbox-item-2 {
+    min-height: 200px;
+    
+}
+
+.flexbox-item-3 {
+    min-height: 200px;
+    background-color: black;
+  
+}
+
+
