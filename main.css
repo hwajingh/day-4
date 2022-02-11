@@ -1,0 +1,133 @@
+body, html{
+    font-family: serif;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+.navbar-brand{
+    font-size: 1.5em;
+    padding-left: 7%;
+}
+
+.navbar-nav{
+    padding-left: 25%;
+}
+
+.nav-link{
+    margin-left: 30px;
+    margin-right: 30px;
+    white-space: nowrap;
+
+}
+
+.header {
+    color: white;
+    position: absolute;
+    float: bottom;
+    font-size: 7em;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.img-responsive{
+    max-width: 100%;
+}
+
+.col {
+    position: relative
+}
+
+.flexbox{
+    display: flex;
+    height: 300px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    justify-content:flex-start;
+}
+
+.item{
+    width: auto;
+    max-height: fit-content;
+    margin-top: 10px;
+    margin-left: 28%;
+    margin-right: 28%;
+    padding: 5px;
+    background-color: white;
+}
+
+.month{
+    border: 1px solid rgb(179, 179, 179);
+    background-color: rgb(214, 214, 214);
+    margin-top: 6%;
+    padding-left: 3%;
+}
+
+.innerthree{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: rgb(192, 192, 192) 2px solid;
+    padding-bottom: 1%;
+}
+.image{
+    margin-right: 5%; 
+}
+.playtitle{
+    margin-right: 2%; 
+    line-height: 2;
+    color: rgb(46, 46, 46);
+}
+.playtitle::first-line{
+    font-size: 1.4em;
+    color: black;
+}
+.button{
+    border: rgb(177, 177, 177) 1px solid;
+    background-color: rgb(255, 196, 0);
+    font-size: 1.1em;
+    padding: 1.1%;
+    color: white;
+    white-space: nowrap;
+}
+
+body{
+    margin-bottom: 400px;
+    min-height: 100vh;
+ }
+
+
+.site-footer{
+    background: black;
+    margin-top: 2%;
+}
+
+.footer-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 2%;
+}
+
+.ftext{
+    color: white;
+    font-family: sans-serif;
+    margin: 1%;
+    line-height: 4;
+    font-size: 80%;
+    width: 18em;
+}
+
+.ftext::first-line{
+    font-size: 2.2em;
+}
+
+.content-1{
+    margin-top: 60px;
+    margin-right: 40px;
+}
