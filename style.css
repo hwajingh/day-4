@@ -12,7 +12,7 @@ th{
   padding: 10px;
 }
 table.center {
-  margin-left: auto; 
+  margin-left: auto;
   margin-right: auto;
 }
 
@@ -26,13 +26,13 @@ table.center {
 .flexbox {
     min-height: 50px;
     background-color: black;
-  
-    
+
+
 }
 .grid-item{
   display: grid;
   grid-template-rows: 100px;
-  position: center;
+  /* FIX: `position: center` is not a valid position value; removed. */
 }
 .flexbox-item-1 {
   background-size: 100% 500px;
@@ -40,7 +40,7 @@ table.center {
    background-repeat: no-repeat;
    min-height: 450px;
    background-position: center;
-    
+
 }
 
 h1{
@@ -55,13 +55,11 @@ h1{
 
 .flexbox-item-2 {
     min-height: 200px;
-    
+
 }
 
 .flexbox-item-3 {
     min-height: 200px;
     background-color: black;
-  
+
 }
-
-
