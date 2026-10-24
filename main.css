@@ -24,7 +24,7 @@ body, html{
 .header {
     color: white;
     position: absolute;
-    float: bottom;
+    /* FIX: `float: bottom` is not a valid float value; removed. */
     font-size: 7em;
     top: 50%;
     left: 50%;
@@ -37,7 +37,8 @@ body, html{
 }
 
 .col {
-    position: relative
+    /* FIX: missing semicolon after position in the original. */
+    position: relative;
 }
 
 .flexbox{
@@ -75,10 +76,10 @@ body, html{
     padding-bottom: 1%;
 }
 .image{
-    margin-right: 5%; 
-}
+    margin-right: 5%;
+ }
 .playtitle{
-    margin-right: 2%; 
+    margin-right: 2%;
     line-height: 2;
     color: rgb(46, 46, 46);
 }
